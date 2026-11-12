@@ -1,0 +1,17 @@
+{
+  "name": "pplg-adventure-multiplayer",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Game belajar Dasar-Dasar Pengembangan Perangkat Lunak dan Gim (PPLG) Kelas X Fase E dengan dunia 3D, mini game, dan multiplayer realtime",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
